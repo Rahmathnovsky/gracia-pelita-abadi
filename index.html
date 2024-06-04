@@ -34,6 +34,20 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <button class="open-button">
+    <row>
+        <col><a href="https://api.whatsapp.com/send?phone=6285176962127&text=Halo,%20Simsalabim%20Technology!">
+          <img src="assets/img/wa-logo.png" alt="" width="90%" style="margin-left: 30%;"></a>
+        </coll>
+    </row>
+    <!-- <row >
+        <col><a href="https://api.whatsapp.com/send?phone=6281384995069&text=Halo,%20Kalapa%20Technology!">
+          <p class="text-kalista">
+              What can i help you?
+          </p></a>
+        </col>
+    </row> -->
+  </button>
 </head>
 
 <body>
@@ -76,7 +90,6 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
     </div>
   </header><!-- End Header -->
 
@@ -783,5 +796,93 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
+<style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+  
+  /* Button used to open the chat form - fixed at the bottom of the page */
+  .open-button {
+    background-color: transparent;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: -20px;
+    left: -80px;
+    width: 180px;
+    z-index: 9999;
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  .text-kalista {
+      background-color: rgb(5, 4, 53);
+      border-radius: 12px;
+      
+  }
+  </style>    
+  <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+      
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+      </script>
 </html>
