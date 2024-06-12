@@ -851,7 +851,7 @@ Banner Style
   height: 467px;
 }
 
-.main-banner:before {
+/* .main-banner:before {
   content: '';
   background-image: url(../images/baner-dec-right.png);
   background-repeat: no-repeat;
@@ -860,7 +860,7 @@ Banner Style
   top: 100px;
   width: 98px;
   height: 290px;
-}
+} */
 
 .main-banner .left-content {
   margin-right: 45px;
@@ -1460,6 +1460,13 @@ responsive
   }
   #about {
     margin-top: 0px;
+  }
+  .about-us-test {
+    padding: 160px 0px;
+    background-image: url(../images/contact-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
   }
   .about-us {
     position: relative;
