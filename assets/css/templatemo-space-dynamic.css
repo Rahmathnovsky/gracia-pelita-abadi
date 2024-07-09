@@ -113,6 +113,7 @@ html, body {
 
 a {
   text-decoration: none !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -125,6 +126,7 @@ ul {
 }
 
 p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
   line-height: 30px;
   color: #2a2a2a;
@@ -189,10 +191,12 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #2a3890;
 }
 
 .section-heading h2 span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #ee2126;
 }
 
